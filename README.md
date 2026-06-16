@@ -1,4 +1,4 @@
-# 2.1 Project Title
+#  Project Title
 **MintChain: Virtual Cryptographic Token Mint Ledger**
 
 *Course:* Data Structures & Algorithms with C++ — Semester II  
@@ -7,14 +7,14 @@
 
 ---
 
-## 2.2 Problem Statement
+## Problem Statement
 MintChain is the core system for a new cryptocurrency platform that records token ownership, processes trades, and guards against fraud. Currently, the user balance ledger is too large for fast in memory storage. Incorrect transactions cannot be automatically reversed. Trade requests are processed randomly instead of in submission order. Verifying a user's digital signature scans the entire key registry. There is no map of how different tokens can be exchanged through intermediate pairs, so users miss cheaper multi step conversion routes. Transaction data wastes blockchain space because there is no intelligent packing logic.
 
 The new system needs a disk optimized balance ledger, instant transaction state rollback, strict order trade processing, quick digital signature verification, sorting transaction pools by processing speed, a token exchange relationship map, the lowest risk multi step conversion path, and smart data packing logic that maximizes block space utilization.
 
 ---
 
-## 2.3 Objectives
+## Objectives
 The primary objectives of this project are to implement the following "Must Have Features" in C++:
 *   **Keep a secure, organized list of all user balances:** Store the massive ledger of user token balances, optimized for disk storage.
 *   **Track reversed transactions to fix mistakes:** Track sequential transaction states to allow administrators to undo errors.
@@ -27,12 +27,12 @@ The primary objectives of this project are to implement the following "Must Have
 
 ---
 
-## 2.4 System Overview / Architecture
+## System Overview / Architecture
 MintChain is designed as a console-based application modeling the backend processing node of platforms similar to Ethereum or Solana. The architecture is modular, with distinct components handling user states, transaction execution, verification logic, market exchange routing, and block data packing. It avoids databases, relying purely on carefully selected in-memory data structures (trees, hash maps, queues, and graphs) to simulate high-efficiency data handling.
 
 ---
 
-## 2.5 Data Structures and Algorithms Used
+## Data Structures and Algorithms Used
 
 ### Data Structures
 1.  **`std::map<string, UserAccount>` — Balance Ledger:** Internally a Red-Black Tree. Provides O(log n) lookups and naturally keeps users sorted by ID. Simulates a structured, index-heavy storage layer.
@@ -48,7 +48,7 @@ MintChain is designed as a console-based application modeling the backend proces
 
 ---
 
-## 2.6 Implementation Approach
+##  Implementation Approach
 The implementation focuses strictly on standard C++ (C++11 or later) without external libraries. 
 *   **Encapsulation via Structs:** Domain entities like `UserAccount`, `Transaction`, and `TradeRequest` are encapsulated into structs.
 *   **Interactive Menu:** A centralized `while(true)` loop driven by `std::cin` provides a CLI to interact with all 17 system features.
@@ -56,7 +56,7 @@ The implementation focuses strictly on standard C++ (C++11 or later) without ext
 
 ---
 
-## 2.7 Time and Space Complexity Analysis
+##  Time and Space Complexity Analysis
 
 | Feature | Data Structure / Algorithm | Time Complexity | Space Complexity |
 | :--- | :--- | :--- | :--- |
@@ -73,7 +73,7 @@ The implementation focuses strictly on standard C++ (C++11 or later) without ext
 
 ---
 
-## 2.8 Execution Steps
+##  Execution Steps
 The project requires a standard C++ compiler (`g++`).
 
 **1. Compile the source code:**
@@ -93,7 +93,7 @@ main.exe
 
 ---
 
-## 2.9 Sample Inputs and Outputs
+##  Sample Inputs and Outputs
 Sample input and output flows have been captured in the `data/` directory.
 
 *   [Sample Input File](data/sample_input.txt)
@@ -115,7 +115,7 @@ Balance: 900
 
 ---
 
-## 2.10 Screenshots
+## Screenshots
 > **Note to Evaluator:** The following screenshots demonstrate the execution of the program in a standard terminal environment.
 
 ### Menu Options Execution
@@ -142,12 +142,12 @@ Balance: 900
 
 ---
 
-## 2.11 Results and Observations
+##  Results and Observations
 The implementation successfully models the core operations of a cryptocurrency node backend. By aligning specific problem domains with their ideal data structures (e.g., using `std::unordered_map` for key lookups instead of scanning vectors), time bottlenecks were practically eliminated. Dijkstra's Algorithm proved highly effective in mapping out minimal-risk token conversion paths, successfully mirroring routing algorithms seen on decentralized exchanges.
 
 ---
 
-## 2.12 Conclusion
+## Conclusion
 MintChain demonstrates that robust, high-performance financial and cryptographic systems rely heavily on foundational Data Structures and Algorithms. The system satisfies all requirements of the problem statement, offering highly optimized lookups, accurate transaction rollbacks, intelligent block packing, and strict deterministic processing.
 
 ---
