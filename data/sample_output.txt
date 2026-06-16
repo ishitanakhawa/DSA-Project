@@ -1,0 +1,442 @@
+--- MintChain ---
+User added successfully!
+User added successfully!
+User added successfully!
+Key registered!
+Key registered!
+
+--- Signature Verification Demo ---
+Checking alice with correct key:
+Signature VALID.
+Checking alice with wrong key:
+Signature INVALID.
+Checking unregistered user 'charlie':
+Error: No key registered for user.
+------------------------------------
+Exchange pair added.
+Exchange pair added.
+Exchange pair added.
+Chunk added.
+Chunk added.
+Transaction successful!
+Transaction successful!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: All Users:
+alice | ETH | 901
+bob | ETH | 600
+charlie | BTC | 1.5
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: ID: Token: Balance: User added successfully!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: ID: User ID: david
+Token: SOL
+Balance: 150
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: From: To: Amount: Transaction successful!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Rollback successful!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Buyer: Seller: Amount: Trade submitted to queue.
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: 1. bob wants 10 from charlie
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Error: Not enough balance.
+Next trade processed.
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: User: Key: Key registered!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: User: Key: Signature VALID.
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: TX ID: Fee: Speed (fast/medium/slow): Added to pool!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: TX ID: Fee: Speed (fast/medium/slow): Added to pool!
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Pool sorted by speed.
+1. TX: TX004 Speed: fast
+2. TX: TX005 Speed: slow
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Token 1: Token 2: Risk: Exchange pair added.
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: BTC connects to:
+  -> ETH (risk: 0.05)
+  -> USDT (risk: 0.07)
+ETH connects to:
+  -> BTC (risk: 0.05)
+  -> USDT (risk: 0.01)
+  -> SOL (risk: 0.03)
+SOL connects to:
+  -> ETH (risk: 0.03)
+USDT connects to:
+  -> ETH (risk: 0.01)
+  -> BTC (risk: 0.07)
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Start Token: End Token: Safest path risk: 0.04
+Path: SOL -> ETH -> USDT
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Chunk ID: Size (KB): Chunk added.
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: Block 1 size: 400 chunks: C001 
+Block 2 size: 1000 chunks: C002 C003 
+
+Menu:
+1. Add User
+2. Check Balance
+3. Display All Users
+4. Process Txn
+5. Rollback Txn
+6. Submit Trade
+7. Process Next Trade
+8. View Trades
+9. Register Key
+10. Verify Signature
+11. Add to Pool
+12. Sort by Speed & Display Pool
+13. Add Exchange Pair
+14. Display Graph
+15. Safest Path
+16. Add Chunk
+17. Pack Blocks
+0. Exit
+Choice: 
