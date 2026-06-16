@@ -3,7 +3,7 @@
 
 *Course:* Data Structures & Algorithms with C++ — Semester II  
 *Institution:* ITM Skills University  
-*Problem No.:* 54
+*Problem Statement No.:* 54
 
 ---
 
